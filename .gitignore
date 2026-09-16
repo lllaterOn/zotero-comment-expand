@@ -1,0 +1,20 @@
+node_modules/
+.cache/
+.qa/
+build/
+dist/
+artifacts/
+coverage/
+test-results/
+playwright-report/
+*.log
+*.xpi
+.DS_Store
+
+# Secrets and local overrides
+.env
+.env.*
+!.env.example
+local-settings.json
+*secret*
+*apikey*

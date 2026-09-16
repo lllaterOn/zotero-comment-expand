@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Comment Expand",
+  "version": "1.0.0",
+  "description": "一键完整显示批注评论，再次点击恢复 Zotero 默认显示；原文保持不变。",
+  "author": "lllaterOn",
+  "homepage_url": "https://github.com/lllaterOn/zotero-comment-expand",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "comment-expand@lllateron",
+      "strict_min_version": "10.0.2",
+      "strict_max_version": "10.0.*",
+      "update_url": "https://raw.githubusercontent.com/lllaterOn/zotero-comment-expand/main/updates.json"
+    },
+    "gecko": {
+      "id": "comment-expand@lllateron"
+    }
+  }
+}

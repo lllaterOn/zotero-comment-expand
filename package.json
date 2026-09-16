@@ -1,0 +1,30 @@
+{
+  "name": "zotero-comment-expand",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "A small Zotero plugin that expands annotation comments in the reader sidebar.",
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "verify:repository": "node scripts/verify-repository.mjs",
+    "verify:update-manifest": "node scripts/verify-update-manifest.mjs",
+    "build": "node scripts/build.mjs",
+    "verify:release-assets": "node scripts/verify-release-assets-selftest.mjs",
+    "verify:package": "node scripts/verify-package.mjs",
+    "verify": "npm run typecheck && npm run test && npm run verify:repository && npm run verify:update-manifest && npm run build && npm run verify:release-assets && npm run verify:package"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^24.3.1",
+    "esbuild": "^0.25.9",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
