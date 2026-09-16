@@ -1,7 +1,19 @@
 {
   "addons": {
     "comment-expand@lllateron": {
-      "updates": []
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/lllaterOn/zotero-comment-expand/releases/download/v1.0.0/zotero-comment-expand-1.0.0.xpi",
+          "update_hash": "sha256:6160f7753999048a9f97a7562f478e0346d1c25dcbf6b93723532ead24eaf273",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "10.0.2",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
     }
   }
 }
