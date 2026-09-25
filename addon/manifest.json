@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Zotero Comment Expand",
-  "version": "1.0.0",
-  "description": "一键完整显示批注评论，再次点击恢复 Zotero 默认显示；原文保持不变。",
+  "version": "1.0.1",
+  "description": "一键展开或收起批注评论，保持评论原文不变。",
   "author": "lllaterOn",
   "homepage_url": "https://github.com/lllaterOn/zotero-comment-expand",
   "icons": {

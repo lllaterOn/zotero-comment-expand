@@ -1,13 +1,13 @@
 {
   "name": "zotero-comment-expand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "license": "MIT",
   "engines": {
     "node": ">=22"
   },
-  "description": "A small Zotero plugin that expands annotation comments in the reader sidebar.",
+  "description": "一键展开或收起批注评论，保持评论原文不变。",
   "scripts": {
     "clean": "node scripts/clean.mjs",
     "typecheck": "tsc --noEmit",
