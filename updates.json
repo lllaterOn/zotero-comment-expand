@@ -12,6 +12,17 @@
               "strict_max_version": "10.0.*"
             }
           }
+        },
+        {
+          "version": "1.0.1",
+          "update_link": "https://github.com/lllaterOn/zotero-comment-expand/releases/download/v1.0.1/zotero-comment-expand-1.0.1.xpi",
+          "update_hash": "sha256:a50a7b936bf9df785b78c278f9ec42667c70c8c6a9503cd8f89f73fcf537ba07",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "10.0.2",
+              "strict_max_version": "10.0.*"
+            }
+          }
         }
       ]
     }
